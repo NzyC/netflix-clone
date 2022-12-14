@@ -4,7 +4,7 @@
   padding: 20px;
   width: 100%;
   height: 30px;
-  z-index: 1;
+  z-index: 100;
 
   /* animation */
   transition-timing-function: ease-in;
@@ -14,11 +14,12 @@
 .nav__content {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav__logo {
   position: fixed;
-  top: 10px;
+  top: 25px;
   left: 0;
   width: 80px;
   object-fit: contain;
@@ -36,4 +37,6 @@
   right: 20px;
   width: 30px;
   height: 30px;
+  position: fixed;
+  top: 20px;
 }
